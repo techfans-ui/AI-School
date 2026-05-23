@@ -122,11 +122,11 @@ h2 {
 }
 
 .logo {
-  font-size: 1.4rem;
-  font-weight: 900;
-  color: var(--white);
+  display: flex;
+  align-items: center;
+  line-height: 1;
 }
-.logo span { color: var(--green-light); }
+.logo svg { display: block; }
 
 .nav-links {
   display: flex;
