@@ -46,6 +46,99 @@ img { max-width: 100%; }
 .section { padding: 100px 0; }
 .section-dark { background: var(--dark-2); }
 
+/* ---- FOUNDER SECTION ---- */
+.founder-card {
+  display: flex;
+  gap: 48px;
+  align-items: flex-start;
+  margin-top: 48px;
+  background: var(--dark-3);
+  border: 1px solid var(--mid);
+  border-radius: var(--radius);
+  padding: 48px;
+}
+
+.founder-avatar {
+  flex-shrink: 0;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--green-dark), var(--green));
+  border: 3px solid var(--gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.4rem;
+  font-weight: 900;
+  color: var(--gold);
+  letter-spacing: 2px;
+}
+
+.founder-info h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 6px;
+}
+
+.founder-title {
+  color: var(--gold);
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 16px;
+}
+
+.founder-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.founder-tags .tag {
+  background: var(--green-dark);
+  color: var(--gold-light);
+  border: 1px solid var(--green);
+  border-radius: 20px;
+  padding: 4px 14px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.founder-info p {
+  color: var(--text-muted);
+  margin-bottom: 14px;
+  line-height: 1.75;
+}
+
+.founder-quote {
+  border-left: 3px solid var(--gold);
+  padding-left: 16px;
+  margin-top: 20px;
+  color: var(--text);
+  font-style: italic;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 700px) {
+  .founder-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 32px 24px;
+  }
+  .founder-quote {
+    border-left: none;
+    border-top: 3px solid var(--gold);
+    padding-left: 0;
+    padding-top: 16px;
+  }
+  .founder-tags { justify-content: center; }
+}
+
 .section-label {
   text-transform: uppercase;
   letter-spacing: 3px;
