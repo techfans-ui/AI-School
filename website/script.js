@@ -107,15 +107,15 @@ const statsObserver = new IntersectionObserver((entries) => {
 const heroStats = document.querySelector('.hero-stats');
 if (heroStats) statsObserver.observe(heroStats);
 
-/* ---- Application form ---- */
+/* ---- Application form (Formspree backend) ---- */
 const applyForm = document.getElementById('applyForm');
 const formSuccess = document.getElementById('formSuccess');
 
 if (applyForm) {
-  applyForm.addEventListener('submit', (e) => {
+  applyForm.addEventListener('submit', async (e) => {
     e.preventDefault();
 
-    // Basic validation
+    // Basic client-side validation
     const required = applyForm.querySelectorAll('[required]');
     let valid = true;
     required.forEach(field => {
@@ -126,18 +126,34 @@ if (applyForm) {
         field.style.borderColor = '';
       }
     });
-
     if (!valid) return;
 
-    // Collect form data (in production: send to backend / CRM)
-    const data = Object.fromEntries(new FormData(applyForm).entries());
-    console.log('Application submitted:', data);
+    const submitBtn = applyForm.querySelector('button[type="submit"]');
+    submitBtn.textContent = 'Submitting…';
+    submitBtn.disabled = true;
 
-    // Show success state
-    applyForm.style.display = 'none';
-    formSuccess.style.display = 'block';
+    try {
+      const response = await fetch(applyForm.action, {
+        method: 'POST',
+        body: new FormData(applyForm),
+        headers: { Accept: 'application/json' }
+      });
 
-    // Scroll to success message
-    formSuccess.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      if (response.ok) {
+        applyForm.style.display = 'none';
+        formSuccess.style.display = 'block';
+        formSuccess.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      } else {
+        const data = await response.json();
+        const msg = data?.errors?.map(e => e.message).join(', ') || 'Submission failed. Please email us directly.';
+        alert(msg);
+        submitBtn.textContent = 'Submit Application';
+        submitBtn.disabled = false;
+      }
+    } catch {
+      alert('Network error. Please try again or email info@vetaiacademy.org.');
+      submitBtn.textContent = 'Submit Application';
+      submitBtn.disabled = false;
+    }
   });
 }
