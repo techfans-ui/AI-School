@@ -17,14 +17,15 @@
 ### EDUCATION
 
 **Master of Science — Big Data and Information Technology**
-[University Name]
+
+**Bachelor of Science — Mathematics and Statistics**
 
 ---
 
 ### PROFESSIONAL EXPERIENCE
 
 **AI/ML Engineer**
-UMB Financial Corporation | Kansas City, Missouri | [Start Date] – Present
+UMB Financial Corporation | Kansas City, Missouri
 - Built and deployed **4 production chatbots** and **1 autonomous AI agent** for internal and customer-facing financial use cases
 - Developing enterprise AI agents on **Amazon Bedrock**, **Amazon SageMaker**, and **Amazon Q Business**
 - Design, develop, and deploy machine learning models for financial risk and data analysis
@@ -33,14 +34,14 @@ UMB Financial Corporation | Kansas City, Missouri | [Start Date] – Present
 - Collaborate cross-functionally with engineering and data teams on AI/ML initiatives
 
 **Site Reliability Engineer (SRE)**
-Oracle | Kansas City, Missouri | [Start Date] – [End Date]
+Oracle | Kansas City, Missouri
 - Maintained reliability, availability, and performance of enterprise-scale cloud and infrastructure systems
 - Automated operational workflows and incident response processes
 - Monitored distributed systems and led root cause analysis for production incidents
 - Collaborated with engineering teams to build resilient, scalable infrastructure
 
 **Cloud Engineer**
-Amazon Web Services (Amazon) | [Location] | [Start Date] – [End Date] *(5 years)*
+Amazon Web Services (Amazon) | *(5 years)*
 - Architected and managed scalable cloud infrastructure on AWS for enterprise clients
 - Designed data pipelines and storage solutions using AWS services (EC2, S3, Lambda, RDS)
 - Delivered technical documentation and training for internal and client cloud teams
