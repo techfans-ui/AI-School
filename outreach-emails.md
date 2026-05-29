@@ -1,4 +1,4 @@
-# VetAI Academy — Outreach Email Templates
+# VETAIML — Outreach Email Templates
 
 ---
 
@@ -10,7 +10,7 @@
 
 Hi [Name],
 
-My name is [Your Name], and I'm the founder of VetAI Academy — an AI training program built specifically for military veterans.
+My name is Manse Soura, and I'm the founder of VETAIML — an AI training program built specifically for military veterans.
 
 We're launching a 12-week intensive bootcamp that prepares veterans for AI and technology careers paying $120,000–$165,000 per year. The program is fully covered by GI Bill and VET TEC benefits — zero out-of-pocket cost for eligible veterans.
 
@@ -20,28 +20,28 @@ I'm reaching out because [VSO Name] serves exactly the veterans we exist to help
 - We'd sponsor [VSO Name] events in exchange for introductions to transitioning veterans
 - We'd offer a priority application pathway for [VSO Name] members
 
-Would you have 20 minutes for a call this week or next? I'd love to learn more about your members' needs and share how VetAI Academy can support them.
+Would you have 20 minutes for a call this week or next? I'd love to learn more about your members' needs and share how VETAIML can support them.
 
 Thank you for everything you do for our veterans.
 
 Semper Fi / Hooah / Hooyah,
 
-[Your Name]
-Founder, VetAI Academy
-[Phone] | info@vetaiacademy.org
-vetaiacademy.org
+Manse Soura
+Founder, VETAIML
+(254) 216-0899 | techfan360@gmail.com
+vetaiml.com
 
 ---
 
 ## 2. SkillBridge / Base TAP Office Outreach
 
-**Subject:** VetAI Academy — AI Training Partnership for Transitioning Service Members
+**Subject:** VETAIML — AI Training Partnership for Transitioning Service Members
 
 ---
 
 Hi [TAP Coordinator Name / Installation Commander],
 
-I'm reaching out on behalf of VetAI Academy, an AI training program purpose-built for transitioning service members and veterans.
+I'm reaching out on behalf of VETAIML, an AI training program purpose-built for transitioning service members and veterans.
 
 We're applying for DoD SkillBridge provider status and wanted to connect with your Transition Assistance Program (TAP) office directly. Our 12-week AI bootcamp aligns perfectly with SkillBridge's mission — placing service members into high-paying civilian tech careers before they leave active duty.
 
@@ -61,22 +61,22 @@ I look forward to supporting [Installation Name]'s transition mission.
 
 V/R,
 
-[Your Name]
-Founder, VetAI Academy
-[Phone] | info@vetaiacademy.org
-vetaiacademy.org
+Manse Soura
+Founder, VETAIML
+(254) 216-0899 | techfan360@gmail.com
+vetaiml.com
 
 ---
 
 ## 3. Employer Hiring Partner Outreach
 
-**Subject:** Hire AI-Skilled Veterans — VetAI Academy Partnership
+**Subject:** Hire AI-Skilled Veterans — VETAIML Partnership
 
 ---
 
 Hi [Hiring Manager / Talent Acquisition Director],
 
-I run VetAI Academy, a training program that produces AI-ready, job-qualified military veterans in 12 weeks. I'm building our employer hiring network and believe [Company Name] would be a great fit.
+I run VETAIML, a training program that produces AI-ready, job-qualified military veterans in 12 weeks. I'm building our employer hiring network and believe [Company Name] would be a great fit.
 
 **What our graduates bring:**
 - Hands-on skills in Python, machine learning, generative AI, and LLMs
@@ -98,10 +98,10 @@ Can we schedule a 20-minute call?
 
 Best,
 
-[Your Name]
-Founder, VetAI Academy
-[Phone] | info@vetaiacademy.org
-vetaiacademy.org
+Manse Soura
+Founder, VETAIML
+(254) 216-0899 | techfan360@gmail.com
+vetaiml.com
 
 ---
 
@@ -113,7 +113,7 @@ vetaiacademy.org
 
 Dear [Program Officer Name],
 
-I am writing to inquire about funding opportunities through [Foundation Name] for VetAI Academy, an AI training program for U.S. military veterans.
+I am writing to inquire about funding opportunities through [Foundation Name] for VETAIML, an AI training program for U.S. military veterans.
 
 **The Problem:** 200,000 veterans transition out of service annually. The AI economy is creating 500,000+ new jobs per year — yet veterans lack access to AI training designed for their culture, pace, and schedule.
 
@@ -133,16 +133,16 @@ Thank you for your commitment to [foundation mission].
 
 Respectfully,
 
-[Your Name]
-Founder, VetAI Academy
-[Phone] | info@vetaiacademy.org
-vetaiacademy.org
+Manse Soura
+Founder, VETAIML
+(254) 216-0899 | techfan360@gmail.com
+vetaiml.com
 
 ---
 
 ## 5. Corporate Sponsor Outreach (Microsoft, Google, Amazon, etc.)
 
-**Subject:** Veteran AI Training Partnership — VetAI Academy x [Company Name]
+**Subject:** Veteran AI Training Partnership — VETAIML x [Company Name]
 
 ---
 
@@ -150,7 +150,7 @@ Hi [CSR / Partnerships Contact],
 
 [Company Name] has been a leader in expanding AI access and supporting veteran communities. I'm building something at the intersection of both — and I'd love to explore a partnership.
 
-VetAI Academy trains military veterans in AI skills using [Company Name]'s own tools — Azure OpenAI / Google Cloud AI / AWS AI services — and prepares them for certification on your platform.
+VETAIML trains military veterans in AI skills using [Company Name]'s own tools — Azure OpenAI / Google Cloud AI / AWS AI services — and prepares them for certification on your platform.
 
 **A partnership could include:**
 - Curriculum co-branding ("Powered by [Company Name] AI")
@@ -159,16 +159,16 @@ VetAI Academy trains military veterans in AI skills using [Company Name]'s own t
 - Joint press release and co-marketing to veteran audiences
 - Pipeline of certified, Azure/AWS/Google-credentialed veteran hires
 
-Many corporations have stated veteran hiring and AI skills expansion as dual priorities. VetAI Academy delivers both — simultaneously.
+Many corporations have stated veteran hiring and AI skills expansion as dual priorities. VETAIML delivers both — simultaneously.
 
 I'd love 20 minutes with your veterans ERG, CSR team, or talent partnerships group.
 
 Best,
 
-[Your Name]
-Founder, VetAI Academy
-[Phone] | info@vetaiacademy.org
-vetaiacademy.org
+Manse Soura
+Founder, VETAIML
+(254) 216-0899 | techfan360@gmail.com
+vetaiml.com
 
 ---
 
@@ -180,7 +180,7 @@ vetaiacademy.org
 
 Hey [Name] — I noticed your background in [branch/MOS/military service] and wanted to reach out.
 
-I run VetAI Academy, a 12-week AI training bootcamp built specifically for veterans. Most people don't realize their military experience — systems thinking, working under pressure, attention to detail — maps directly to what AI teams are hiring for right now.
+I run VETAIML, a 12-week AI training bootcamp built specifically for veterans. Most people don't realize their military experience — systems thinking, working under pressure, attention to detail — maps directly to what AI teams are hiring for right now.
 
 The program is fully covered by GI Bill and VET TEC benefits (no out-of-pocket cost), and our graduates are landing roles at $120K–$165K.
 
@@ -188,8 +188,8 @@ No coding experience needed to start.
 
 If you're exploring your options post-service, I'd be happy to have a no-pressure conversation. Would you be open to a 15-minute call?
 
-— [Your Name]
-VetAI Academy | vetaiacademy.org
+— Manse Soura
+VETAIML | vetaiml.com
 
 ---
 

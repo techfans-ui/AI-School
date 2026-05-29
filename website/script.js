@@ -1,4 +1,4 @@
-// VetAI Academy — script.js
+// VETAIML — script.js
 
 /* ---- Navbar scroll effect ---- */
 const navbar = document.getElementById('navbar');
@@ -151,7 +151,7 @@ if (applyForm) {
         submitBtn.disabled = false;
       }
     } catch {
-      alert('Network error. Please try again or email info@vetaiacademy.org.');
+      alert('Network error. Please try again or email info@vetaiml.com.');
       submitBtn.textContent = 'Submit Application';
       submitBtn.disabled = false;
     }

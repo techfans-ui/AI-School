@@ -1,4 +1,4 @@
-# VetAI Academy — 30-Day Social Media Content Plan
+# VETAIML — 30-Day Social Media Content Plan
 ### LinkedIn + Instagram | May–June 2026
 
 **Posting Cadence:**
@@ -24,7 +24,7 @@
 >
 > The AI economy is creating 500,000+ jobs per year — and veterans are perfectly positioned for them. They just need the right training, the right structure, and someone who speaks their language.
 >
-> That's why I started VetAI Academy.
+> That's why I started VETAIML.
 >
 > 12 weeks. Real AI skills. Zero out-of-pocket cost with GI Bill / VET TEC.
 >
@@ -32,7 +32,7 @@
 >
 > Drop a 🎖️ if you're a veteran or know one who's ready to transition into tech.
 >
-> 🔗 Link in bio | vetaiacademy.org
+> 🔗 Link in bio | vetaiml.com
 
 **Instagram Caption:** Same core message, shorter. End with: "Link in bio to apply. 🎖️ #VetAI #MilTech #VeteranJobs"
 
@@ -53,7 +53,7 @@
 >
 > The skills gap is smaller than you think. The knowledge gap is bridgeable in 12 weeks.
 >
-> We built VetAI Academy for exactly this. Applications open now → vetaiacademy.org
+> We built VETAIML for exactly this. Applications open now → vetaiml.com
 
 ---
 
@@ -68,11 +68,11 @@
 >
 > That's a $90,000 gap.
 >
-> VetAI Academy closes it in 12 weeks — with zero tuition out of pocket for GI Bill eligible veterans.
+> VETAIML closes it in 12 weeks — with zero tuition out of pocket for GI Bill eligible veterans.
 >
 > You've already done the hardest training of your life. This is the last one.
 >
-> 🔗 vetaiacademy.org/apply
+> 🔗 vetaiml.com/apply
 
 ---
 
@@ -97,7 +97,7 @@
 >
 > No fluff. No filler. Just mission-critical skills.
 >
-> Apply: vetaiacademy.org
+> Apply: vetaiml.com
 
 ---
 
@@ -114,11 +114,11 @@
 >
 > If you served this country, you have the raw materials to build its AI future.
 >
-> VetAI Academy gives you the tools.
+> VETAIML gives you the tools.
 >
 > Applications open. First cohort starts [Month]. Limited seats.
 >
-> 🔗 vetaiacademy.org | #Veterans #AI #CareerChange #MilitaryTransition
+> 🔗 vetaiml.com | #Veterans #AI #CareerChange #MilitaryTransition
 
 ---
 
@@ -149,13 +149,13 @@
 **Copy:**
 > VET TEC. GI Bill. SkillBridge.
 >
-> Three ways veterans can attend VetAI Academy at zero out-of-pocket cost.
+> Three ways veterans can attend VETAIML at zero out-of-pocket cost.
 >
 > Most veterans don't know all three exist. Our admissions team helps you figure out which one you qualify for in a free 15-minute call.
 >
 > No pressure. No sales pitch. Just answers.
 >
-> Book your free call → vetaiacademy.org
+> Book your free call → vetaiml.com
 
 ---
 
@@ -170,7 +170,7 @@
 >
 > The transition is hard. The training doesn't have to be.
 >
-> VetAI Academy. Built for the ones who served.
+> VETAIML. Built for the ones who served.
 >
 > #VeteranSuccess #AICareer #WomenVeterans
 
@@ -197,7 +197,7 @@
 >
 > There is no better time to make this move.
 >
-> 🔗 Apply in 5 minutes: vetaiacademy.org/apply
+> 🔗 Apply in 5 minutes: vetaiml.com/apply
 
 ---
 
@@ -233,11 +233,11 @@
 >
 > Type B: "I don't know it yet — but I'll learn it. Let's go."
 >
-> VetAI Academy is built for Type B.
+> VETAIML is built for Type B.
 >
 > Which one are you?
 >
-> 🔗 vetaiacademy.org/apply | #NoExcuses #VetAI
+> 🔗 vetaiml.com/apply | #NoExcuses #VetAI
 
 ---
 
@@ -256,7 +256,7 @@
 >
 > And because veterans execute.
 >
-> 🔗 vetaiacademy.org
+> 🔗 vetaiml.com
 
 ---
 
@@ -265,13 +265,13 @@
 **Copy:**
 > We're building something bigger than a bootcamp.
 >
-> VetAI Academy is a community of veterans who chose to evolve, to challenge themselves in a new arena, and to bring the same intensity from service into building the future.
+> VETAIML is a community of veterans who chose to evolve, to challenge themselves in a new arena, and to bring the same intensity from service into building the future.
 >
 > Our Slack community, alumni network, and battle buddy system means you'll never feel alone — before, during, or after training.
 >
 > The mission never ends. It just changes.
 >
-> 🔗 vetaiacademy.org | #VetAICommunity
+> 🔗 vetaiml.com | #VetAICommunity
 
 ---
 
@@ -284,11 +284,11 @@
 >
 > If you've been watching, waiting, or "thinking about it" — this is the moment.
 >
-> The AI economy isn't waiting for anyone. But VetAI Academy is waiting for you — for just a little longer.
+> The AI economy isn't waiting for anyone. But VETAIML is waiting for you — for just a little longer.
 >
 > 5-minute application. 48-hour response. Zero cost if GI Bill eligible.
 >
-> 🔗 vetaiacademy.org/apply
+> 🔗 vetaiml.com/apply
 >
 > Tag a veteran who needs to see this. ⬇️
 

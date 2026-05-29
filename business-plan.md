@@ -1,11 +1,11 @@
-# Business Plan: VetAI Academy
+# Business Plan: VETAIML
 ### AI Training School for Military Veterans
 
 ---
 
 ## 1. Executive Summary
 
-**VetAI Academy** is a workforce training organization that equips U.S. military veterans with practical artificial intelligence skills to transition into high-demand technology careers. We deliver accelerated, cohort-based AI training online and in-person, backed by VA education benefits and employer hiring partnerships.
+**VETAIML** is a workforce training organization that equips U.S. military veterans with practical artificial intelligence skills to transition into high-demand technology careers. We deliver accelerated, cohort-based AI training online and in-person, backed by VA education benefits and employer hiring partnerships.
 
 - **Mission:** Bridge the gap between military service and the AI economy by giving veterans the skills, credentials, and connections to thrive in tech.
 - **Target Market:** U.S. veterans and active-duty service members transitioning out of the military.
@@ -26,7 +26,7 @@
 
 ## 3. Solution
 
-VetAI Academy offers:
+VETAIML offers:
 - **12-week intensive AI bootcamp** (full-time) and **24-week part-time track**
 - Curriculum built around real-world AI tools used in defense, healthcare, logistics, and cybersecurity
 - Veteran peer mentorship and military-style cohort culture
@@ -165,4 +165,4 @@ VetAI Academy offers:
 
 ---
 
-*VetAI Academy — Deploying Veterans into the AI Economy*
+*VETAIML — Deploying Veterans into the AI Economy*

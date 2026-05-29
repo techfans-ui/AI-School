@@ -1,11 +1,11 @@
-# VetAI Academy — Pitch Deck Outline
+# VETAIML — Pitch Deck Outline
 ### For Investors, Grant Committees & VA Approval Bodies
 
 ---
 
 ## Slide 1 — Cover
 
-**VetAI Academy**
+**VETAIML**
 *Deploying Veterans into the AI Economy*
 
 - Logo / Brand visual
@@ -45,7 +45,7 @@
 
 ## Slide 4 — Our Solution
 
-**VetAI Academy** is a 12-week, accelerated AI training program built specifically for veterans.
+**VETAIML** is a 12-week, accelerated AI training program built specifically for veterans.
 
 - ✅ Cohort-based, military-style structure
 - ✅ Veteran-led instructors
@@ -118,7 +118,7 @@ SOM: $45M  — Target: 10% of active VET TEC participants by Year 3
 
 ## Slide 9 — Competitive Advantage
 
-| | VetAI Academy | Generic Bootcamps | Community College | DIY (YouTube/Coursera) |
+| | VETAIML | Generic Bootcamps | Community College | DIY (YouTube/Coursera) |
 |---|---|---|---|---|
 | Built for veterans | ✅ | ❌ | ❌ | ❌ |
 | GI Bill / VET TEC | ✅ | Varies | Varies | ❌ |
@@ -165,7 +165,7 @@ SOM: $45M  — Target: 10% of active VET TEC participants by Year 3
 
 ## Slide 12 — Vision
 
-**By 2030, VetAI Academy will have:**
+**By 2030, VETAIML will have:**
 
 - Trained 5,000+ veterans in AI
 - Placed graduates at 200+ companies nationwide
@@ -178,11 +178,11 @@ SOM: $45M  — Target: 10% of active VET TEC participants by Year 3
 
 ## Slide 13 — Contact & Next Steps
 
-**VetAI Academy**
-- Website: vetaiacademy.org
-- Email: info@vetaiacademy.org
+**VETAIML**
+- Website: vetaiml.com
+- Email: info@vetaiml.com
 - Phone: 1-800-VET-AI-11
-- LinkedIn: linkedin.com/company/vetaiacademy
+- LinkedIn: linkedin.com/company/vetaiml
 
 **Next Steps:**
 1. Schedule a 30-minute call

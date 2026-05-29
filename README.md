@@ -1,4 +1,4 @@
-# VetAI Academy
+# VETAIML
 ### AI Training School for Military Veterans
 
 > *Deploying Veterans into the AI Economy*
@@ -26,7 +26,7 @@ VET TEC & GI Bill approved accelerated AI training program built specifically fo
 
 A complete, responsive, single-page marketing website is in the `website/` folder. It auto-deploys to GitHub Pages on every push via the included GitHub Actions workflow.
 
-**Live URL (after enabling GitHub Pages):** `https://souramanse-web.github.io/AI-School`
+**Live URL:** `https://vetaiml.com`
 
 **To enable GitHub Pages:**
 1. Go to repo **Settings → Pages**
@@ -44,7 +44,7 @@ A complete, responsive, single-page marketing website is in the `website/` folde
 
 ## Mission
 
-VetAI Academy bridges the gap between military service and the AI economy. Veterans bring unmatched discipline, systems thinking, and leadership. We give them the AI credentials to match.
+VETAIML bridges the gap between military service and the AI economy. Veterans bring unmatched discipline, systems thinking, and leadership. We give them the AI credentials to match.
 
 ---
 

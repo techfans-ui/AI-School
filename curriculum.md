@@ -1,4 +1,4 @@
-# VetAI Academy — Curriculum Outline
+# VETAIML — Curriculum Outline
 ### AI Training for Military Veterans
 
 ---
@@ -197,4 +197,4 @@ Lead instructors must have:
 
 ---
 
-*VetAI Academy — Deploying Veterans into the AI Economy*
+*VETAIML — Deploying Veterans into the AI Economy*
