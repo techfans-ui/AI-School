@@ -3,13 +3,13 @@
    ============================================================ */
 
 :root {
-  --green:      #1a6b35;
-  --green-dark: #134f27;
-  --green-light:#2d8a4e;
+  --green:      #005ea2;
+  --green-dark: #1a4480;
+  --green-light:#5b9fd6;
   --gold:       #c9a227;
   --gold-light: #c9a227;
-  --navy:       #003366;
-  --navy-dark:  #002244;
+  --navy:       #112e51;
+  --navy-dark:  #0d1f3c;
   --dark:       #ffffff;
   --dark-2:     #f0f4f8;
   --dark-3:     #ffffff;
@@ -264,7 +264,7 @@ h2 {
   display: flex;
   align-items: center;
   position: relative;
-  background: linear-gradient(135deg, var(--navy-dark) 0%, #0f2318 55%, var(--navy) 100%);
+  background: linear-gradient(135deg, var(--navy-dark) 0%, #0d1f3c 55%, var(--navy) 100%);
   padding-top: 68px;
   overflow: hidden;
   color: #ffffff;
@@ -275,7 +275,7 @@ h2 {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(circle at 20% 50%, rgba(45,125,70,0.15) 0%, transparent 60%),
+    radial-gradient(circle at 20% 50%, rgba(0,94,162,0.20) 0%, transparent 60%),
     radial-gradient(circle at 80% 20%, rgba(201,162,39,0.08) 0%, transparent 50%);
 }
 
@@ -289,7 +289,7 @@ h2 {
 
 .hero-badge {
   display: inline-block;
-  background: rgba(45,125,70,0.2);
+  background: rgba(0,94,162,0.25);
   border: 1px solid var(--green);
   color: var(--green-light);
   padding: 6px 16px;
@@ -396,7 +396,7 @@ h2 {
 
 .track-featured {
   border-color: var(--green);
-  background: linear-gradient(160deg, #e6f4ec 0%, var(--dark-3) 100%);
+  background: linear-gradient(160deg, #e8f0f8 0%, var(--dark-3) 100%);
 }
 
 .track-badge {
