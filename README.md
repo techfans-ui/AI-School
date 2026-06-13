@@ -5,6 +5,8 @@
 
 VET TEC & GI Bill approved accelerated AI training program built specifically for U.S. military veterans.
 
+SAM.gov: UEI UHUMP38XMEU8 • CAGE 219N8 — Registration Active 2026-06-13
+
 ---
 
 ## Repository Contents

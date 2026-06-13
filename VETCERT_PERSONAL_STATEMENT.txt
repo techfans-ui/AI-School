@@ -5,7 +5,8 @@ Applicant: Manse Soura
 Company: VETAI Academy LLC (DBA: VETAIML Academy)
 EIN: 42-2731334
 UEI: UHUMP38XMEU8
-Date: 2026-06-05
+CAGE: 219N8
+Date: 2026-06-13
 
 ---
 

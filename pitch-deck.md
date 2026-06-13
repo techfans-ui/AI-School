@@ -81,6 +81,7 @@ Week 11–12  →   Real-World AI + Capstone + Employer Demo Day
 
 - **Beta cohort:** 10 students, 100% completion rate, 8/10 placed within 60 days
 - **VA approval:** VET TEC application submitted [Month X]
+- **VA approval:** SAM.gov registration Active — UEI UHUMP38XMEU8 • CAGE 219N8 (Active 2026-06-13)
 - **Employer partners:** [Company 1], [Company 2], [Company 3]
 - **Waitlist:** 150+ veterans interested before launch
 - **Press / Partners:** [VSO endorsements, press mentions]

@@ -20,6 +20,7 @@ Timeline: **6–12 months** end-to-end. Start immediately.
 - [ ] Obtain a Federal EIN (Employer Identification Number) at irs.gov — free, instant
 - [ ] Open a dedicated business bank account
 - [ ] Obtain a DUNS number / register at SAM.gov (required for federal contracts and grants)
+- [x] Obtain a DUNS number / register at SAM.gov (required for federal contracts and grants) — UEI: UHUMP38XMEU8 • CAGE: 219N8 (Active 2026-06-13)
 - [ ] Secure a physical address (office, coworking space, or registered agent address)
 - [ ] Create a professional website with program details, tuition costs, and school policies
 - [ ] Draft your School Catalog (required by SAA) — includes:

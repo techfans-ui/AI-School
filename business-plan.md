@@ -74,6 +74,8 @@ VETAIML offers:
 3. Apply for VET TEC provider status through VA's vendor portal
 4. Timeline: 6–12 months for full approval
 
+**SAM.gov Registration:** Registered and Active — **UEI: UHUMP38XMEU8** • **CAGE: 219N8** (Active 2026-06-13)
+
 ---
 
 ## 7. Operations Plan
