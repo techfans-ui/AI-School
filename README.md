@@ -1,9 +1,9 @@
 # VETAIML
-### AI Training School for Military Veterans
+### AI Training School for Military Veterans and Civilians
 
-> *Deploying Veterans into the AI Economy*
+> *Deploying Veterans and Civilians into the AI Economy*
 
-VET TEC & GI Bill approved accelerated AI training program built specifically for U.S. military veterans.
+VET TEC & GI Bill approved accelerated AI training program built for U.S. military veterans; civilians are welcome to apply.
 
 SAM.gov: UEI UHUMP38XMEU8 • CAGE 219N8 — Registration Active 2026-06-13
 
