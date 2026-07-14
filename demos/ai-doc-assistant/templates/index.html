@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>VETAIML AI Document Assistant</title>
+<style>
+  :root {
+    --navy: #1a3c6e;
+    --navy-dark: #12294c;
+    --accent: #2e6fb7;
+    --bg: #f4f6fa;
+    --grey: #5a6472;
+    --line: #d8e0ec;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: #1c2430;
+  }
+  header {
+    background: linear-gradient(135deg, var(--navy), var(--navy-dark));
+    color: #fff;
+    padding: 22px 28px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.15);
+  }
+  header h1 { margin: 0; font-size: 1.35rem; letter-spacing: .3px; }
+  header p { margin: 4px 0 0; font-size: .85rem; opacity: .85; }
+  .badge {
+    display: inline-block; margin-top: 8px; font-size: .72rem;
+    background: rgba(255,255,255,.15); padding: 3px 9px; border-radius: 12px;
+  }
+  .wrap { max-width: 880px; margin: 26px auto; padding: 0 18px; }
+  .card {
+    background: #fff; border: 1px solid var(--line); border-radius: 10px;
+    padding: 20px 22px; margin-bottom: 20px; box-shadow: 0 1px 3px rgba(0,0,0,.04);
+  }
+  .card h2 { margin: 0 0 12px; font-size: 1rem; color: var(--navy); }
+  .row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+  button {
+    background: var(--accent); color: #fff; border: 0; border-radius: 7px;
+    padding: 10px 18px; font-size: .9rem; cursor: pointer; font-weight: 600;
+    transition: background .15s;
+  }
+  button:hover { background: var(--navy); }
+  button.secondary { background: #eaf0f8; color: var(--navy); }
+  button.secondary:hover { background: #dbe6f5; }
+  button:disabled { opacity: .5; cursor: not-allowed; }
+  input[type="text"] {
+    flex: 1; min-width: 240px; padding: 11px 13px; font-size: .95rem;
+    border: 1px solid var(--line); border-radius: 7px;
+  }
+  input[type="file"] { font-size: .85rem; }
+  .status {
+    font-size: .85rem; color: var(--grey); margin-top: 10px; min-height: 18px;
+  }
+  .status.ok { color: #1d7a44; }
+  .status.err { color: #b4231f; }
+  .answer {
+    border-left: 4px solid var(--accent); background: #f8fbff;
+    padding: 13px 16px; margin: 12px 0; border-radius: 0 8px 8px 0;
+  }
+  .answer .meta { font-size: .74rem; color: var(--grey); margin-bottom: 6px; }
+  .answer .score {
+    display: inline-block; background: var(--navy); color: #fff;
+    border-radius: 10px; padding: 1px 8px; font-size: .7rem; margin-left: 6px;
+  }
+  .answer p { margin: 0; line-height: 1.5; font-size: .92rem; }
+  .muted { color: var(--grey); font-size: .82rem; }
+  footer { text-align: center; font-size: .76rem; color: var(--grey); padding: 18px; }
+  .spinner {
+    display: inline-block; width: 14px; height: 14px; border: 2px solid #cdd8e8;
+    border-top-color: var(--accent); border-radius: 50%; animation: spin .7s linear infinite;
+    vertical-align: middle; margin-right: 6px;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+</style>
+</head>
+<body>
+<header>
+  <h1>VETAIML AI Document Assistant</h1>
+  <p>Ask natural-language questions of any policy, SOP, or regulation — answers retrieved with on-device machine learning.</p>
+  <span class="badge">VETAIML Academy LLC &middot; SDVOSB &middot; AI/ML Capability Demo</span>
+</header>
+
+<div class="wrap">
+  <div class="card">
+    <h2>1 &middot; Load a document</h2>
+    <div class="row">
+      <button id="sampleBtn" class="secondary">Use sample VA policy</button>
+      <input type="file" id="fileInput" accept=".pdf,.txt" />
+      <button id="uploadBtn">Index uploaded file</button>
+    </div>
+    <div class="status" id="loadStatus">No document loaded yet.</div>
+  </div>
+
+  <div class="card">
+    <h2>2 &middot; Ask a question</h2>
+    <div class="row">
+      <input type="text" id="question" placeholder="e.g. How do I apply for disability compensation?" disabled />
+      <button id="askBtn" disabled>Ask</button>
+    </div>
+    <div class="status" id="askStatus"></div>
+    <div id="answers"></div>
+  </div>
+
+  <p class="muted">
+    How it works: the document is split into passages, each encoded into a vector
+    with a sentence-transformer model, and your question is matched to the closest
+    passages by cosine similarity. Everything runs locally — no data leaves this machine.
+  </p>
+</div>
+
+<footer>VETAIML Academy LLC &middot; Proof-of-capability demonstration &middot; vetaiml.com</footer>
+
+<script>
+const loadStatus = document.getElementById("loadStatus");
+const askStatus = document.getElementById("askStatus");
+const answers = document.getElementById("answers");
+const questionInput = document.getElementById("question");
+const askBtn = document.getElementById("askBtn");
+
+function setLoaded(source, chunks) {
+  loadStatus.className = "status ok";
+  loadStatus.textContent = `Indexed "${source}" — ${chunks} searchable passages. Ready for questions.`;
+  questionInput.disabled = false;
+  askBtn.disabled = false;
+}
+
+function busy(el, text) {
+  el.className = "status";
+  el.innerHTML = `<span class="spinner"></span>${text}`;
+}
+
+document.getElementById("sampleBtn").addEventListener("click", async () => {
+  busy(loadStatus, "Loading and indexing sample document…");
+  try {
+    const r = await fetch("/api/load-sample", { method: "POST" });
+    const d = await r.json();
+    if (!r.ok) throw new Error(d.error || "Failed to load sample.");
+    setLoaded(d.source, d.chunks);
+  } catch (e) {
+    loadStatus.className = "status err";
+    loadStatus.textContent = e.message;
+  }
+});
+
+document.getElementById("uploadBtn").addEventListener("click", async () => {
+  const f = document.getElementById("fileInput").files[0];
+  if (!f) { loadStatus.className = "status err"; loadStatus.textContent = "Choose a PDF or TXT file first."; return; }
+  busy(loadStatus, `Indexing "${f.name}"…`);
+  const fd = new FormData();
+  fd.append("document", f);
+  try {
+    const r = await fetch("/api/upload", { method: "POST", body: fd });
+    const d = await r.json();
+    if (!r.ok) throw new Error(d.error || "Upload failed.");
+    setLoaded(d.source, d.chunks);
+  } catch (e) {
+    loadStatus.className = "status err";
+    loadStatus.textContent = e.message;
+  }
+});
+
+async function ask() {
+  const q = questionInput.value.trim();
+  if (!q) return;
+  busy(askStatus, "Searching…");
+  answers.innerHTML = "";
+  try {
+    const r = await fetch("/api/ask", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ question: q })
+    });
+    const d = await r.json();
+    if (!r.ok) throw new Error(d.error || "Search failed.");
+    askStatus.className = "status ok";
+    askStatus.textContent = `Top matches from "${d.source}":`;
+    d.results.forEach(res => {
+      const div = document.createElement("div");
+      div.className = "answer";
+      div.innerHTML = `<div class="meta">Match #${res.rank}
+        <span class="score">similarity ${res.score}</span></div>
+        <p>${res.text.replace(/</g, "&lt;")}</p>`;
+      answers.appendChild(div);
+    });
+  } catch (e) {
+    askStatus.className = "status err";
+    askStatus.textContent = e.message;
+  }
+}
+
+askBtn.addEventListener("click", ask);
+questionInput.addEventListener("keydown", e => { if (e.key === "Enter") ask(); });
+</script>
+</body>
+</html>

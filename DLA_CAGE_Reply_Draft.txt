@@ -1,0 +1,34 @@
+Subject: Response to CAGE Review — UEI XUXWMY61KXR6
+
+To: CAGEREVIEW@dla.mil
+
+Manse Soura,
+
+Please find our response to your request for verification and supporting documentation for VECTRA CORE SYSTEMS LLC (UEI: XUXWMY61KXR6).
+
+1) Legal Business Name Documentation
+Attached: "Articles_of_Organization_Vectra_Core_Systems_LLC.pdf" (obtained from Missouri Secretary of State, dated [INSERT DATE]).
+
+2) Co-location / Physical Address
+- SAM physical address on file: 6527 E 128TH ST, GRANDVIEW, MO 64030 — this is correct and complete (no suite number).
+- Other company at this address: VETAI ACADEMY LLC (CAGE 219N8). Please note that VETAI ACADEMY LLC is a separate legal entity; both entities share the same founder/owner (Manse Soura) and operate from the same facility. See attached "Co-location_Statement_Vectra_Core_Systems_LLC.pdf" for details.
+- There are no open federal contracts under a previous company name that require novation.
+
+3) Point of Contact (POC) Verification
+- POC: Manse Soura — Owner / Managing Member
+- Email: techfan360@gmail.com — this is the POC's direct email for business operations.
+- Phone: +1 (254) 216-0899 — this is a direct number for the POC.
+
+Attachments included:
+- Articles_of_Organization_Vectra_Core_Systems_LLC.pdf  (from MO SOS)
+- VECTRA_SAM_REGISTRATION_SUMMARY.md
+- Operating_Agreement_Vectra_Core_Systems_LLC.md
+- Co-location_Statement_Vectra_Core_Systems_LLC.pdf
+
+Please confirm receipt of these documents and advise if any additional documentation is required to complete CAGE assignment. We appreciate your assistance and will respond quickly to any further questions.
+
+Regards,
+Manse Soura
+Founder & Managing Member
+VECTRA CORE SYSTEMS LLC
+techfan360@gmail.com | +1 (254) 216-0899
