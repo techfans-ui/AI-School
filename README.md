@@ -30,6 +30,8 @@ A complete, responsive, single-page marketing website is in the `website/` folde
 
 **Live URL:** `https://vetaiml.com`
 
+**All training tracks are 100% online with live instruction.**
+
 **To enable GitHub Pages:**
 1. Go to repo **Settings → Pages**
 2. Under *Source*, select **GitHub Actions**
