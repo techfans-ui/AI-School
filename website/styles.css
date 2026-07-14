@@ -233,6 +233,17 @@ h2 {
   .site-banner { font-size: 0.95rem; padding: 8px 12px; }
 }
 
+.banner-cta {
+  margin-left: 16px;
+  background: var(--navy-dark);
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-weight: 800;
+  text-decoration: none;
+}
+.banner-cta:hover { background: #0b1730; }
+
 .logo {
   display: flex;
   align-items: center;
