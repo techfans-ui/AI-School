@@ -44,6 +44,14 @@ A complete, responsive, single-page marketing website is in the `website/` folde
 
 ---
 
+## Certifications
+
+**VETAI ACADEMY LLC** — UEI UHUMP38XMEU8
+
+- Service-Disabled Veteran-Owned — Entrance: 07/13/2026 — Renewal: 07/12/2029 — **Active**
+- Veteran-Owned — Entrance: 07/13/2026 — Renewal: 07/12/2029
+
+
 ## Mission
 
 VETAIML bridges the gap between military service and the AI economy. Veterans bring unmatched discipline, systems thinking, and leadership. We give them the AI credentials to match.
