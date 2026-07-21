@@ -233,6 +233,35 @@ h2 {
   .site-banner { font-size: 0.95rem; padding: 8px 12px; }
 }
 
+/* ---- WARNING BANNER (e.g. applications closed) ---- */
+.warning-banner {
+  background: #fff3cd;
+  color: #664d03;
+  border: 1px solid #ffe69c;
+  border-left: 5px solid #ffc107;
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin: 0 0 28px;
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.warning-banner-hero {
+  max-width: 720px;
+  margin: 0 0 24px;
+  text-align: center;
+  font-size: 1.05rem;
+  font-weight: 600;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.35);
+  animation: warningPulse 2.4s ease-in-out infinite;
+}
+
+@keyframes warningPulse {
+  0%, 100% { box-shadow: 0 6px 24px rgba(255,193,7,0.35); }
+  50% { box-shadow: 0 6px 32px rgba(255,193,7,0.75); }
+}
+
 .banner-cta {
   margin-left: 16px;
   background: var(--navy-dark);
