@@ -735,3 +735,27 @@ textarea { resize: vertical; }
   .hero-cta { flex-direction: column; }
   .footer-grid { grid-template-columns: 1fr; }
 }
+
+/* ---- APPLICATIONS CLOSED ---- */
+.apply-disabled {
+  pointer-events: none;
+  opacity: 0.55;
+  cursor: not-allowed;
+  text-decoration: none;
+}
+.apply-closed-note {
+  margin-top: 16px;
+  padding: 14px 18px;
+  border: 1px solid var(--gold, #c9a227);
+  border-radius: 8px;
+  color: var(--gold, #c9a227);
+  font-weight: 600;
+  text-align: center;
+}
+.apply-form.apply-form-disabled input,
+.apply-form.apply-form-disabled select,
+.apply-form.apply-form-disabled textarea,
+.apply-form.apply-form-disabled button {
+  pointer-events: none;
+  opacity: 0.5;
+}

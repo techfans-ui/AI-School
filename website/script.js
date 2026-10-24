@@ -157,3 +157,23 @@ if (applyForm) {
     }
   });
 }
+
+/* ---- APPLICATIONS CLOSED: disable all apply actions ---- */
+document.querySelectorAll('a[href="#apply"]').forEach(link => {
+  link.classList.add('apply-disabled');
+  link.textContent = 'Applications Closed';
+  link.setAttribute('aria-disabled', 'true');
+  link.removeAttribute('href');
+});
+
+if (applyForm) {
+  applyForm.classList.add('apply-form-disabled');
+  applyForm.querySelectorAll('input, select, textarea, button').forEach(el => {
+    el.disabled = true;
+    el.setAttribute('tabindex', '-1');
+  });
+  const note = document.createElement('div');
+  note.className = 'apply-closed-note';
+  note.textContent = 'Applications are currently closed. New applications open December 2026.';
+  applyForm.parentElement.prepend(note);
+}
